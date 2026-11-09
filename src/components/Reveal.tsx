@@ -1,4 +1,4 @@
-import { motion } from 'motion/react'
+﻿import { motion } from 'motion/react'
 import type { ReactNode } from 'react'
 
 // Fade-and-rise on scroll. Wrap any block; stagger siblings with `delay`.
@@ -27,3 +27,4 @@ export function Reveal({
     </motion.div>
   )
 }
+

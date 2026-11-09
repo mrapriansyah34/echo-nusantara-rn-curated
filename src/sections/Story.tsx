@@ -1,4 +1,4 @@
-import { Leaf } from 'lucide-react'
+﻿import { Leaf } from 'lucide-react'
 
 import { Container } from '../components/Container'
 import { ProductPlate } from '../components/ProductPlate'
@@ -18,7 +18,7 @@ export function Story() {
               <div className="relative">
                 <div className="relative aspect-[4/3] overflow-hidden border border-hair bg-paper-2">
                   <ProductPlate
-                    image="/images/gua-kapur-kalimantan.jpg"
+                    image="./images/gua-kapur-kalimantan.jpg"
                     alt={story.imageAlt}
                     kind="dry"
                     tone="gold"
@@ -88,3 +88,4 @@ export function Story() {
     </section>
   )
 }
+

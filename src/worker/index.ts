@@ -1,4 +1,4 @@
-import { Hono } from 'hono'
+﻿import { Hono } from 'hono'
 
 // The Worker in front of the static site. Add API routes here; everything
 // else falls through to the built assets (single-page-application mode).
@@ -24,3 +24,4 @@ app.post('/api/subscribe', async (c) => {
 app.all('*', (c) => c.env.ASSETS.fetch(c.req.raw))
 
 export default app
+

@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+﻿import { useEffect, useState } from 'react'
 import { ArrowUpRight, Check, MessageCircle, Minus, Plus, Trash2, X } from 'lucide-react'
 
 import { allProducts, brand, couriers } from '../content'
@@ -166,7 +166,7 @@ export function CartDrawer() {
                           <div>
                             <p className="font-display text-[19px] leading-tight text-ink">{product.name}</p>
                             <p className="mt-1 text-[11.5px] uppercase tracking-[0.16em] text-muted">
-                              {product.setLabel} · {variant.label}
+                              {product.setLabel} Â· {variant.label}
                             </p>
                           </div>
                           <button
@@ -297,7 +297,7 @@ export function CartDrawer() {
                 {t.submit}
               </button>
               <p className="mt-3 text-center text-[11.5px] uppercase tracking-[0.16em] text-muted">
-                Admin {brand.whatsappDisplay} · 09.00–20.00 WIB
+                Admin {brand.whatsappDisplay} Â· 09.00â€“20.00 WIB
               </p>
             </div>
           </>
@@ -306,3 +306,4 @@ export function CartDrawer() {
     </div>
   )
 }
+

@@ -1,4 +1,4 @@
-import { Container } from '../components/Container'
+﻿import { Container } from '../components/Container'
 import { Reveal } from '../components/Reveal'
 import { useLocale } from '../lib/i18n'
 
@@ -26,7 +26,7 @@ export function Testimonials() {
             <Reveal key={item.name} delay={index * 0.08}>
               <figure className="flex h-full flex-col justify-between border-l border-cream/12 pl-6">
                 <blockquote className="font-display text-[21px] italic leading-[1.5] text-cream/90">
-                  “{item.quote}”
+                  â€œ{item.quote}â€
                 </blockquote>
                 <figcaption className="mt-8">
                   <p className="text-[12px] uppercase tracking-[0.16em] text-cream">{item.name}</p>
@@ -40,3 +40,4 @@ export function Testimonials() {
     </section>
   )
 }
+

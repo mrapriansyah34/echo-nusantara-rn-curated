@@ -1,4 +1,4 @@
-import { Benefits } from './sections/Benefits'
+﻿import { Benefits } from './sections/Benefits'
 import { Brew } from './sections/Brew'
 import { CartDrawer } from './sections/CartDrawer'
 import { Collection } from './sections/Collection'
@@ -41,3 +41,4 @@ export function App() {
     </ThemeProvider>
   )
 }
+

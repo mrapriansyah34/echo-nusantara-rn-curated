@@ -1,4 +1,4 @@
-import { createContext, useCallback, useContext, useMemo, useState } from 'react'
+﻿import { createContext, useCallback, useContext, useMemo, useState } from 'react'
 import type { ReactNode } from 'react'
 
 import { allProducts, brand } from '../content'
@@ -105,9 +105,9 @@ export function StoreProvider({ children }: { children: ReactNode }) {
         const unit = variant?.price ?? product?.price ?? 0
         const total = unit * line.qty
         return [
-          `${index + 1}. ${product?.name ?? line.productId} — ${product?.setLabel ?? ''}`,
+          `${index + 1}. ${product?.name ?? line.productId} â€” ${product?.setLabel ?? ''}`,
           `   ${order.variant}: ${variant?.label ?? line.variantKey}`,
-          `   ${line.qty} × ${formatRupiah(unit)} = ${formatRupiah(total)}`,
+          `   ${line.qty} Ã— ${formatRupiah(unit)} = ${formatRupiah(total)}`,
         ].join('\n')
       })
 
@@ -169,3 +169,4 @@ export function useStore() {
   if (!store) throw new Error('useStore must be used inside StoreProvider')
   return store
 }
+

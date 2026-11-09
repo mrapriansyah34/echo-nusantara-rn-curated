@@ -1,4 +1,4 @@
-import { drinks, dry, hampers } from './content'
+﻿import { drinks, dry, hampers } from './content'
 import type { Copy } from './content'
 
 // English translation of every string in src/content.ts. The `Copy` type keeps
@@ -13,21 +13,21 @@ export const en: Copy = {
       { label: 'FAQ', href: '#faq' },
     ],
     cta: { label: 'Order via WhatsApp' },
-    announcement: 'Ships across Indonesia · Free shipping on orders above Rp 2,000,000',
+    announcement: 'Ships across Indonesia Â· Free shipping on orders above Rp 2,000,000',
     cartLabel: 'Cart',
     cartAria: 'Open cart',
     menuAria: 'Open menu',
     themeLabel: 'Theme & language',
   },
   hero: {
-    eyebrow: 'Pure edible bird’s nest · Since 2012',
+    eyebrow: 'Pure edible birdâ€™s nest Â· Since 2012',
     title: ['A luxury you', 'sip every', 'morning'],
     description:
-      'Hand-picked swallow nests from the caves of the Indonesian archipelago, cold-processed without preservatives. Served in 70 ml glass jars — three and a half grams of pure nest in every serving.',
+      'Hand-picked swallow nests from the caves of the Indonesian archipelago, cold-processed without preservatives. Served in 70 ml glass jars â€” three and a half grams of pure nest in every serving.',
     primary: { label: 'Explore the collection', href: '#koleksi' },
     secondary: { label: 'Ask us first', href: '#tanya' },
     facts: ['100% Organic', 'Vacuum sealed', '3.5 g pure nest per jar'],
-    captions: ["Bird's Nest in Jar · Set of 8", 'Dry nest · 100 grams'],
+    captions: ["Bird's Nest in Jar Â· Set of 8", 'Dry nest Â· 100 grams'],
     coldServed: 'Served chilled',
     imageAlt: 'Set of 8 Signature Gold',
     imageAltSecondary: '100 gram dry nest',
@@ -37,16 +37,16 @@ export const en: Copy = {
     'No preservatives',
     'Cold processed',
     'Ships across Indonesia',
-    'Halal · BPOM · FSSC 22000',
+    'Halal Â· BPOM Â· FSSC 22000',
     'Gift packaging',
   ],
   collection: {
-    eyebrow: 'N° 01 — Collection',
+    eyebrow: 'NÂ° 01 â€” Collection',
     title: 'Eight packages, one standard.',
     description:
-      'Every jar holds 3.5 grams of pure edible bird’s nest. Pick the portion that suits you, or start with the smallest.',
-    footnote: 'Date · Pandan variants',
-    footnoteShapes: 'Cup · Strips · Triangle shapes',
+      'Every jar holds 3.5 grams of pure edible birdâ€™s nest. Pick the portion that suits you, or start with the smallest.',
+    footnote: 'Date Â· Pandan variants',
+    footnoteShapes: 'Cup Â· Strips Â· Triangle shapes',
     saveNote: 'Special price',
     askPrice: 'Ask for price',
     askAdmin: 'Ask us',
@@ -55,22 +55,22 @@ export const en: Copy = {
     soldOut: 'Sold out',
     lowBadge: 'Low stock',
     stockLeft: '{n} left of {max}',
-    stockLow: 'Low stock — {n} left',
-    stockEmpty: 'Sold out — ask about restock',
+    stockLow: 'Low stock â€” {n} left',
+    stockEmpty: 'Sold out â€” ask about restock',
     askMessage: 'Hello ECHO Nusantara, I would like to ask the price of {name} ({set}).',
   },
   story: {
-    caption: 'Limestone cave · East Kalimantan',
+    caption: 'Limestone cave Â· East Kalimantan',
     sideNote: 'Harvested without disturbing active nests. One nest, one origin card.',
     certified: 'Certified',
     imageAlt: 'A swiftlet house on a riverbank in East Kalimantan',
   },
   craft: {
-    eyebrow: 'N° 03 — Story',
+    eyebrow: 'NÂ° 03 â€” Story',
     title: 'From the archipelago to your table.',
     body: [
-      'Edible bird’s nests in the Indonesian archipelago form from swiftlet saliva that hardens on limestone cave walls. We take only nests that have been abandoned, then clean them without chemicals.',
-      'Every nest is sorted by hand under light, weighed, and cold-processed so its texture stays whole. The result is not a supplement — it is a dish.',
+      'Edible birdâ€™s nests in the Indonesian archipelago form from swiftlet saliva that hardens on limestone cave walls. We take only nests that have been abandoned, then clean them without chemicals.',
+      'Every nest is sorted by hand under light, weighed, and cold-processed so its texture stays whole. The result is not a supplement â€” it is a dish.',
     ],
     specs: [
       { value: '98%', label: 'Purity level' },
@@ -82,21 +82,21 @@ export const en: Copy = {
     note: 'Every purchase comes with a nest-origin card and its harvest date.',
   },
   ritual: {
-    eyebrow: 'N° 04 — Ritual',
+    eyebrow: 'NÂ° 04 â€” Ritual',
     title: 'Three minutes, every morning.',
     intro:
-      'No heating, no added sugar. Bird’s nest already carries its own gentle flavour — your only task is to serve it calmly.',
+      'No heating, no added sugar. Birdâ€™s nest already carries its own gentle flavour â€” your only task is to serve it calmly.',
     stepLabel: 'Step',
     steps: [
       {
         index: 'I',
         title: 'Chill',
-        body: 'Leave the jar in the fridge overnight. At 4 °C the nest turns softer and the date flavour settles.',
+        body: 'Leave the jar in the fridge overnight. At 4 Â°C the nest turns softer and the date flavour settles.',
       },
       {
         index: 'II',
         title: 'Stir gently',
-        body: 'Stir slowly with a clean spoon — never shake hard. The nest spreads evenly without breaking apart.',
+        body: 'Stir slowly with a clean spoon â€” never shake hard. The nest spreads evenly without breaking apart.',
       },
       {
         index: 'III',
@@ -106,7 +106,7 @@ export const en: Copy = {
     ],
   },
   benefits: {
-    eyebrow: 'N° 05 — Benefits',
+    eyebrow: 'NÂ° 05 â€” Benefits',
     title: '98% clean, ready to brew.',
     description:
       'Sorted by hand, cleaned without chemicals, then packed hygienically. The result is nest you can cook whenever you like.',
@@ -117,7 +117,7 @@ export const en: Copy = {
       },
       {
         title: 'Sorted one by one',
-        body: 'Every product is checked for quality before it ships — nothing leaves without inspection.',
+        body: 'Every product is checked for quality before it ships â€” nothing leaves without inspection.',
       },
       {
         title: 'Naturally, nothing added',
@@ -126,24 +126,24 @@ export const en: Copy = {
     ],
     funFact: {
       title: 'Did you know?',
-      body: 'Most of the immune system is linked to the gut — which makes what you consume matter for whole-body health.',
+      body: 'Most of the immune system is linked to the gut â€” which makes what you consume matter for whole-body health.',
     },
   },
   brew: {
-    eyebrow: 'How to brew — dry nest',
+    eyebrow: 'How to brew â€” dry nest',
     title: 'Four steps, one bowl.',
     description:
-      'For dry nest, brew it at home. No special equipment — a steamer and a glass bowl are enough.',
+      'For dry nest, brew it at home. No special equipment â€” a steamer and a glass bowl are enough.',
     steps: [
       {
         index: '1',
         title: 'Soak',
-        body: 'Rinse gently, then soak for 2–3 hours until the nest blooms like soft jelly.',
+        body: 'Rinse gently, then soak for 2â€“3 hours until the nest blooms like soft jelly.',
       },
       {
         index: '2',
         title: 'Steam',
-        body: 'Steam gently for 15–60 minutes. A little pandan or rock sugar deepens the aroma.',
+        body: 'Steam gently for 15â€“60 minutes. A little pandan or rock sugar deepens the aroma.',
       },
       {
         index: '3',
@@ -153,18 +153,18 @@ export const en: Copy = {
       {
         index: '4',
         title: 'Store',
-        body: 'Keep it in a clean container, chill, and finish within 2–3 days.',
+        body: 'Keep it in a clean container, chill, and finish within 2â€“3 days.',
       },
     ],
   },
   testimonials: {
-    eyebrow: 'N° 06 — Reviews',
+    eyebrow: 'NÂ° 06 â€” Reviews',
     title: 'From those who have tried it.',
     note: 'Verified buyer reviews',
     items: [
       {
         quote:
-          'I ordered the Set of 8 for my mother’s birthday. The box is beautiful, and the origin card makes the gift feel truly considered.',
+          'I ordered the Set of 8 for my motherâ€™s birthday. The box is beautiful, and the origin card makes the gift feel truly considered.',
         name: 'Nadia Prameswari',
         role: 'Jakarta',
       },
@@ -183,13 +183,13 @@ export const en: Copy = {
     ],
   },
   faq: {
-    eyebrow: 'N° 07 — Questions',
+    eyebrow: 'NÂ° 07 â€” Questions',
     title: 'Things we are often asked.',
     note: 'Still unanswered? Our team replies directly on WhatsApp between 09.00 and 20.00 WIB.',
     items: [
       {
         q: 'How do I place an order?',
-        a: 'Choose a variant, add it to the cart, then fill in your name, address and courier. The “Send order to WhatsApp” button opens our official chat with the order details and an invoice number already prepared. Payment is arranged once our team confirms stock.',
+        a: 'Choose a variant, add it to the cart, then fill in your name, address and courier. The â€œSend order to WhatsAppâ€ button opens our official chat with the order details and an invoice number already prepared. Payment is arranged once our team confirms stock.',
       },
       {
         q: 'Which couriers do you use?',
@@ -205,7 +205,7 @@ export const en: Copy = {
       },
       {
         q: 'Can it be sent as a gift?',
-        a: 'Yes. Write your message in the notes field at checkout — we include a greeting card and hide the price from the recipient.',
+        a: 'Yes. Write your message in the notes field at checkout â€” we include a greeting card and hide the price from the recipient.',
       },
       {
         q: 'What if the parcel arrives damaged?',
@@ -214,18 +214,18 @@ export const en: Copy = {
     ],
   },
   closing: {
-    eyebrow: 'N° 08 — Contact',
+    eyebrow: 'NÂ° 08 â€” Contact',
     title: 'Not sure where to begin?',
     description:
-      'Tell us what you need — for yourself, as a gift, or a corporate order. Our team replies between 09.00 and 20.00 WIB.',
+      'Tell us what you need â€” for yourself, as a gift, or a corporate order. Our team replies between 09.00 and 20.00 WIB.',
     button: 'Ask us on WhatsApp',
-    message: 'Hello ECHO Nusantara, I would like to ask about your edible bird’s nest products.',
+    message: 'Hello ECHO Nusantara, I would like to ask about your edible birdâ€™s nest products.',
     signature: 'Answered by a human, not a bot.',
-    hours: 'Mon–Sat · 09.00–20.00 WIB',
+    hours: 'Monâ€“Sat Â· 09.00â€“20.00 WIB',
   },
   footer: {
     blurb:
-      'Pure edible bird’s nest from the Indonesian archipelago. Cold-processed, preservative-free, shipped from Jakarta across Indonesia.',
+      'Pure edible birdâ€™s nest from the Indonesian archipelago. Cold-processed, preservative-free, shipped from Jakarta across Indonesia.',
     columns: [
       { title: 'Collection', links: ['Ready to drink', 'Dry nest', 'Hampers', 'Corporate orders'] },
       { title: 'Help', links: ['How to order', 'Shipping', 'Returns', 'Storage'] },
@@ -233,7 +233,7 @@ export const en: Copy = {
     ],
     shippingLabel: 'Shipping',
     couriers: ['JNE', 'J&T', 'SiCepat', 'AnterAja', 'Ninja', 'Pos Indonesia', 'GoSend', 'GrabExpress'],
-    legal: `© ${new Date().getFullYear()} ECHO Nusantara. Official Partner`,
+    legal: `Â© ${new Date().getFullYear()} ECHO Nusantara. Official Partner`,
     disclaimer:
       'This product is food, not medicine. It is not intended to diagnose, treat or prevent any disease.',
   },
@@ -257,7 +257,7 @@ export const en: Copy = {
     addressPlaceholder: 'Street, number, district, city, postal code',
     courier: 'Courier',
     note: 'Note (optional)',
-    notePlaceholder: 'Gift card, special instructions…',
+    notePlaceholder: 'Gift card, special instructionsâ€¦',
     subtotal: 'Subtotal',
     subtotalNote: 'Excludes shipping. Confirmed by our team on WhatsApp.',
     submit: 'Send order to WhatsApp',
@@ -291,7 +291,7 @@ export const collectionsEn: typeof import('./content').collections = [
     title: 'Ready to drink',
     subtitle: '70 ml jar',
     description:
-      'Nest already brewed and strained, sealed in a glass jar. Chill it, stir, and enjoy — nothing to prepare.',
+      'Nest already brewed and strained, sealed in a glass jar. Chill it, stir, and enjoy â€” nothing to prepare.',
     products: drinks,
   },
   {
@@ -309,7 +309,7 @@ export const collectionsEn: typeof import('./content').collections = [
     title: 'Christmas Hampers',
     subtitle: 'Limited edition',
     description:
-      'A green box with forest illustration and a gold ribbon. Choose the contents to suit the gift — message us for pricing and a custom greeting card.',
+      'A green box with forest illustration and a gold ribbon. Choose the contents to suit the gift â€” message us for pricing and a custom greeting card.',
     products: hampers,
   },
 ]
@@ -326,35 +326,35 @@ export const productTextEn: Record<string, ProductText> = {
   'triple-luxe': {
     name: 'Triple Luxe Serve',
     setLabel: 'Set of 3',
-    volume: '3 × 70 ml',
-    tagline: 'An introduction — three jars for three mornings.',
+    volume: '3 Ã— 70 ml',
+    tagline: 'An introduction â€” three jars for three mornings.',
     variants: {
       'kurma-3': 'Date 3',
       'pandan-3': 'Pandan 3',
-      'pandan2-kurma1': 'Pandan 2 · Date 1',
-      'pandan1-kurma2': 'Pandan 1 · Date 2',
+      'pandan2-kurma1': 'Pandan 2 Â· Date 1',
+      'pandan1-kurma2': 'Pandan 1 Â· Date 2',
     },
   },
   'signature-gold': {
     name: "Bird's Nest in Jar",
     setLabel: 'Set of 8',
-    volume: '8 × 70 ml',
+    volume: '8 Ã— 70 ml',
     tagline: 'Our most-gifted set, packed in a kraft box.',
-    variants: { 'pandan4-kurma4': 'Pandan 4 · Date 4', 'kurma-8': 'Date 8', 'pandan-8': 'Pandan 8' },
+    variants: { 'pandan4-kurma4': 'Pandan 4 Â· Date 4', 'kurma-8': 'Date 8', 'pandan-8': 'Pandan 8' },
   },
   'signature-diamond': {
     name: "Bird's Nest in Jar",
     setLabel: 'Set of 16',
-    volume: '16 × 70 ml',
+    volume: '16 Ã— 70 ml',
     tagline: 'For the whole family and a truly special gift.',
-    variants: { 'pandan8-kurma8': 'Pandan 8 · Date 8', 'kurma-16': 'Date 16', 'pandan-16': 'Pandan 16' },
+    variants: { 'pandan8-kurma8': 'Pandan 8 Â· Date 8', 'kurma-16': 'Date 16', 'pandan-16': 'Pandan 16' },
   },
   'sultan-pack': {
     name: "Bird's Nest in Jar",
     setLabel: 'Set of 30',
-    volume: '30 × 70 ml',
+    volume: '30 Ã— 70 ml',
     tagline: 'A full month. The best price per jar.',
-    variants: { 'pandan15-kurma15': 'Pandan 15 · Date 15', 'kurma-30': 'Date 30', 'pandan-30': 'Pandan 30' },
+    variants: { 'pandan15-kurma15': 'Pandan 15 Â· Date 15', 'kurma-30': 'Date 30', 'pandan-30': 'Pandan 30' },
   },
   'dry-37': {
     name: "Dry Bird's Nest 37.8 g",
@@ -399,7 +399,8 @@ export const productTextEn: Record<string, ProductText> = {
   'hamper-serenity': {
     name: 'Serenity',
     setLabel: 'Christmas Hamper',
-    volume: '6 × 70 ml',
+    volume: '6 Ã— 70 ml',
     tagline: 'Six pandan & date jars in a Christmas-edition box.',
   },
 }
+

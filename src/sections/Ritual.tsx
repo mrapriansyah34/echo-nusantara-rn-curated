@@ -1,4 +1,4 @@
-import { Container } from '../components/Container'
+﻿import { Container } from '../components/Container'
 import { Reveal } from '../components/Reveal'
 import { useLocale } from '../lib/i18n'
 
@@ -45,3 +45,4 @@ export function Ritual() {
     </section>
   )
 }
+

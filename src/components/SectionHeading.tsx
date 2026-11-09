@@ -1,4 +1,4 @@
-import { cx } from '../lib/cx'
+﻿import { cx } from '../lib/cx'
 import { Reveal } from './Reveal'
 
 export function SectionHeading({
@@ -24,3 +24,4 @@ export function SectionHeading({
     </Reveal>
   )
 }
+

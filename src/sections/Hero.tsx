@@ -1,4 +1,4 @@
-import { useRef } from 'react'
+﻿import { useRef } from 'react'
 import { ArrowUpRight, Snowflake } from 'lucide-react'
 import { motion, useReducedMotion, useScroll, useTransform } from 'motion/react'
 
@@ -82,7 +82,7 @@ export function Hero() {
                   className="relative aspect-square overflow-hidden border border-hair bg-cream shadow-[0_40px_80px_-50px_rgb(25_21_17/0.55)]"
                 >
                   <ProductPlate
-                    image="/images/set-8-kurma-8.jpg"
+                    image="./images/set-8-kurma-8.jpg"
                     alt={hero.imageAlt}
                     kind="drink"
                     tone="amber"
@@ -98,7 +98,7 @@ export function Hero() {
 
                 <div className="animate-float absolute -bottom-10 -left-6 hidden w-36 sm:block lg:-left-16 lg:w-40">
                   <div className="relative aspect-square overflow-hidden border border-cream bg-cream shadow-[0_30px_60px_-35px_rgb(25_21_17/0.6)]">
-                    <ProductPlate image="/images/dry-nest-100-cup.jpg" alt={hero.imageAltSecondary} kind="dry" tone="gold" artCount={1} />
+                    <ProductPlate image="./images/dry-nest-100-cup.jpg" alt={hero.imageAltSecondary} kind="dry" tone="gold" artCount={1} />
                   </div>
                   <p className="mt-2 text-[9.5px] uppercase tracking-[0.2em] text-muted">{hero.captions[1]}</p>
                 </div>
@@ -125,3 +125,4 @@ export function Hero() {
     </section>
   )
 }
+

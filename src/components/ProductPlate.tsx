@@ -1,4 +1,4 @@
-import { useState } from 'react'
+﻿import { useState } from 'react'
 
 import type { ProductKind, ProductTone } from '../content'
 import { cx } from '../lib/cx'
@@ -192,3 +192,4 @@ export function ProductPlate({
     </div>
   )
 }
+

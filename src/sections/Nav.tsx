@@ -1,4 +1,4 @@
-import { useState } from 'react'
+﻿import { useState } from 'react'
 import { Menu, ShoppingBag, X } from 'lucide-react'
 import { motion, useScroll } from 'motion/react'
 
@@ -118,3 +118,4 @@ export function Nav() {
     </header>
   )
 }
+

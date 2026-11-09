@@ -1,6 +1,6 @@
-import { cx } from '../lib/cx'
+﻿import { cx } from '../lib/cx'
 
-// Swiftlet silhouette — long swept wings, forked tail. Decorative only.
+// Swiftlet silhouette â€” long swept wings, forked tail. Decorative only.
 const BIRD =
   'M60 10c4 0 7 3 12 4 9 2 21 2 33 5-10 4-23 5-33 4 8 5 15 13 20 25-9-9-18-17-26-23-2 5-4 10-6 17-2-7-4-12-6-17-8 6-17 14-26 23 5-12 12-20 20-25-10 1-23 0-33-4 12-3 24-3 33-5 5-1 8-4 12-4z'
 
@@ -38,3 +38,4 @@ export function FlyingSwallows({ className }: { className?: string }) {
     </div>
   )
 }
+

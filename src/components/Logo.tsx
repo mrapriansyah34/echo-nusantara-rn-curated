@@ -1,4 +1,4 @@
-import { cx } from '../lib/cx'
+﻿import { cx } from '../lib/cx'
 import { brand } from '../content'
 import { PartnerMark } from './PartnerMark'
 
@@ -6,7 +6,7 @@ export function Logo({ className, light = false }: { className?: string; light?:
   return (
     <a
       href="#top"
-      aria-label={`${brand.name} — kembali ke atas`}
+      aria-label={`${brand.name} â€” kembali ke atas`}
       className={cx('group inline-flex shrink-0 flex-col whitespace-nowrap leading-none', className)}
     >
       <span
@@ -23,8 +23,9 @@ export function Logo({ className, light = false }: { className?: string; light?:
           light ? 'text-cream/45' : 'text-muted/80',
         )}
       >
-        {brand.line} · <PartnerMark />
+        {brand.line} Â· <PartnerMark />
       </span>
     </a>
   )
 }
+

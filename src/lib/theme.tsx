@@ -1,4 +1,4 @@
-import { createContext, useCallback, useContext, useEffect, useMemo, useState } from 'react'
+﻿import { createContext, useCallback, useContext, useEffect, useMemo, useState } from 'react'
 import type { ReactNode } from 'react'
 import { flushSync } from 'react-dom'
 
@@ -81,3 +81,4 @@ export function useTheme() {
   if (!value) throw new Error('useTheme must be used inside ThemeProvider')
   return value
 }
+

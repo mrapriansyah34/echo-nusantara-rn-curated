@@ -1,4 +1,4 @@
-import { useState } from 'react'
+﻿import { useState } from 'react'
 import { ArrowUpRight, Check, ShoppingBag } from 'lucide-react'
 
 import { brand } from '../content'
@@ -42,7 +42,7 @@ function ProductCard({ product, delay }: { product: Product; delay: number }) {
       <div className="relative aspect-square overflow-hidden bg-cream">
         <ProductPlate
           image={variant.image}
-          alt={`${product.name} — ${variant.label}`}
+          alt={`${product.name} â€” ${variant.label}`}
           kind={product.kind}
           tone={variant.tone}
           artCount={product.artCount}
@@ -57,7 +57,7 @@ function ProductCard({ product, delay }: { product: Product; delay: number }) {
 
       <div className="flex flex-1 flex-col pt-5">
         <p className="text-[11.5px] uppercase tracking-[0.2em] text-muted">
-          {product.setLabel} · {product.volume}
+          {product.setLabel} Â· {product.volume}
         </p>
         <h3 className="mt-2 font-display text-[26px] leading-tight text-ink">{product.name}</h3>
         <p className="mt-1.5 text-[15.5px] leading-relaxed text-muted">{product.tagline}</p>
@@ -119,7 +119,7 @@ function ProductCard({ product, delay }: { product: Product; delay: number }) {
               <div className="mt-2 flex items-center gap-2">
                 {discount !== null && (
                   <span className="inline-flex items-center rounded-full bg-clay/12 px-2 py-0.5 text-[11.5px] font-semibold tracking-[0.02em] text-clay">
-                    −{discount}%
+                    âˆ’{discount}%
                   </span>
                 )}
                 <span className="text-[11px] uppercase tracking-[0.14em] text-muted">{t.saveNote}</span>
@@ -212,3 +212,4 @@ export function Collection() {
     </section>
   )
 }
+

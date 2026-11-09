@@ -1,4 +1,4 @@
-import { useState } from 'react'
+﻿import { useState } from 'react'
 import { Minus, Plus } from 'lucide-react'
 
 import { Container } from '../components/Container'
@@ -63,3 +63,4 @@ export function Faq() {
     </section>
   )
 }
+

@@ -1,4 +1,4 @@
-import { Moon, Sun } from 'lucide-react'
+﻿import { Moon, Sun } from 'lucide-react'
 
 import { cx } from '../lib/cx'
 import { useLocale } from '../lib/i18n'
@@ -37,3 +37,4 @@ export function Preferences({ className }: { className?: string }) {
     </div>
   )
 }
+

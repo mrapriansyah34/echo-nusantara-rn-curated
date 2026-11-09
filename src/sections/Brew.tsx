@@ -1,4 +1,4 @@
-import { Container } from '../components/Container'
+﻿import { Container } from '../components/Container'
 import { Reveal } from '../components/Reveal'
 import { useLocale } from '../lib/i18n'
 
@@ -14,7 +14,7 @@ export function Brew() {
             <Reveal y={24}>
               <div className="relative aspect-square overflow-hidden border border-hair bg-paper-2">
                 <img
-                  src="/images/konten-cara-seduh.jpg"
+                  src="./images/konten-cara-seduh.jpg"
                   alt="Empat langkah menyeduh sarang burung walet kering"
                   className="h-full w-full object-cover"
                   loading="lazy"
@@ -47,3 +47,4 @@ export function Brew() {
     </section>
   )
 }
+

@@ -1,4 +1,4 @@
-import { Container } from '../components/Container'
+﻿import { Container } from '../components/Container'
 import { Reveal } from '../components/Reveal'
 import { useLocale } from '../lib/i18n'
 
@@ -15,7 +15,7 @@ export function Benefits() {
               <div className="relative">
                 <div className="relative aspect-square overflow-hidden border border-hair bg-paper-2">
                   <img
-                    src="/images/konten-manfaat-mangkuk.jpg"
+                    src="./images/konten-manfaat-mangkuk.jpg"
                     alt="Sarang burung walet yang sudah diseduh di mangkuk kaca"
                     className="h-full w-full object-cover"
                     loading="lazy"
@@ -24,7 +24,7 @@ export function Benefits() {
                 <div className="absolute -bottom-8 -right-4 w-28 border border-cream bg-cream shadow-[0_24px_50px_-30px_rgb(25_21_17/0.5)] sm:w-36 lg:-right-8">
                   <div className="aspect-square overflow-hidden">
                     <img
-                      src="/images/konten-manfaat-jar.jpg"
+                      src="./images/konten-manfaat-jar.jpg"
                       alt="Jar ECHO Nusantara dengan label manfaat"
                       className="h-full w-full object-cover"
                       loading="lazy"
@@ -66,7 +66,7 @@ export function Benefits() {
               <div className="mt-10 flex items-start gap-4 border border-hair bg-paper p-4">
                 <div className="size-20 shrink-0 overflow-hidden bg-paper-2">
                   <img
-                    src="/images/konten-funfact.jpg"
+                    src="./images/konten-funfact.jpg"
                     alt="Seseorang memegang jar ECHO Nusantara"
                     className="h-full w-full object-cover"
                     loading="lazy"
@@ -84,3 +84,4 @@ export function Benefits() {
     </section>
   )
 }
+

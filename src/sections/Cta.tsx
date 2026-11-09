@@ -1,4 +1,4 @@
-import { MessageCircle } from 'lucide-react'
+﻿import { MessageCircle } from 'lucide-react'
 
 import { brand } from '../content'
 import { Button } from '../components/Button'
@@ -28,7 +28,7 @@ export function Cta() {
               <div className="min-w-0 lg:col-span-5">
                 <div className="aspect-square overflow-hidden border border-hair bg-paper-2">
                   <img
-                    src="/images/konten-lifestyle.jpg"
+                    src="./images/konten-lifestyle.jpg"
                     alt={closing.title}
                     className="h-full w-full object-cover"
                     loading="lazy"
@@ -58,7 +58,7 @@ export function Cta() {
                 </Button>
 
                 <p className="mt-4 text-[11.5px] uppercase tracking-[0.18em] text-muted">
-                  {brand.whatsappDisplay} · {closing.signature}
+                  {brand.whatsappDisplay} Â· {closing.signature}
                 </p>
 
                 <div className="mt-7 flex flex-wrap gap-x-8 gap-y-1 border-t border-hair pt-5 text-[12px] leading-relaxed text-muted">
@@ -73,3 +73,4 @@ export function Cta() {
     </section>
   )
 }
+

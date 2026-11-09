@@ -1,4 +1,4 @@
-import { brand } from '../content'
+﻿import { brand } from '../content'
 import { Container } from '../components/Container'
 import { Logo } from '../components/Logo'
 import { PartnerMark } from '../components/PartnerMark'
@@ -64,3 +64,4 @@ export function Footer() {
     </footer>
   )
 }
+
